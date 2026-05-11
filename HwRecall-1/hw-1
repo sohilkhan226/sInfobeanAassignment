@@ -1,0 +1,762 @@
+What are the key features of Python?
+Why is Python called an interpreted language?
+What is the difference between compiled and interpreted languages?
+What makes Python dynamically typed?
+Why is Python platform independent?
+What is the advantage of Python being a high-level language?
+What are the limitations of Python?
+How does Python execute a program internally?
+What is bytecode in Python?
+What is PVM (Python Virtual Machine)?
+What is the difference between source code, bytecode, and machine code?
+Does Python compile code before execution?
+Where is bytecode stored?
+Is Python fully interpreted? Explain.
+What is compilation in Python?
+What is parsing in Python?
+What is a parse tree?
+What is Abstract Syntax Tree (AST)?
+Difference between parse tree and AST?
+What role does AST play in Python execution?
+What is the compilation pipeline in Python?
+What are the steps from source code to execution in Python?
+What is lexical analysis in Python?
+What is syntax analysis in Python?
+What happens if there is a syntax error during parsing?
+What is code object in Python?
+What is .pyc file in Python?
+When are .pyc files created?
+What is the purpose of pycache folder?
+Does Python recompile code every time? Explain.
+What are built-in data types in Python?
+What is the difference between mutable and immutable types?
+Why are strings immutable?
+What is None type in Python?
+Can Python store multiple data types in a single variable?
+What is type casting in Python?
+What is the difference between implicit and explicit conversion?
+Give examples of implicit type conversion.
+What happens when you convert float to int?
+Can we always convert string to int?
+What error occurs if type conversion fails?
+What is the difference between input() and print()?
+Why does input() always return a string?
+How can you take integer input from the user?
+What are sep and end parameters in print()?
+How can you take multiple inputs in one line?
+How do you format output in Python?
+What is the difference between / and // ?
+What is the use of % operator?
+What is the use of ** operator?
+Why is ^ not used as a power operator in Python?
+What are assignment operators in Python?
+What is the difference between = and == ?
+What does += operator do internally?
+What is the output of 5 > 3 > 1 ?
+Can relational operators be chained in Python?
+What is a variable in Python?
+Why is there no need to declare variable type in Python?
+Can we change the data type of a variable dynamically?
+What is multiple assignment in Python?
+How can you swap two variables without using a third variable?
+What are identifiers in Python?
+What are the rules for naming identifiers?
+Can an identifier start with a number?
+What is the difference between identifier and keyword?
+Is Python case-sensitive for identifiers?
+Who developed Python?
+When was Python first released?
+Why was Python created?
+Why is Python named “Python”?
+What are the major versions of Python?
+Why was Python 2 discontinued?
+What is the output of: print(True + True)
+What is the output of: print(10 and 0 or 5)
+What is the output of: print(5 > 3 > 2)
+What is the output of: print(bool(""))
+What is the output of: print(10 / 3)
+What is the output of: print(10 // 3)
+
+
+Here’s a comprehensive, well-organized answer to all your Python fundamentals questions:
+
+---
+
+## 🔹 **Key Features of Python**
+
+1. **Simple & Readable Syntax** – Easy to learn and write.
+2. **Interpreted Language** – Executes line by line.
+3. **Dynamically Typed** – No need to declare variable types.
+4. **Platform Independent** – Runs on any OS with Python installed.
+5. **High-Level Language** – Abstracts low-level details like memory management.
+6. **Extensive Standard Library** – Rich built-in modules for common tasks.
+7. **Supports Multiple Paradigms** – Procedural, OOP, Functional.
+8. **Open Source & Free** – Community-driven development.
+9. **Portable** – Write once, run anywhere (with PVM).
+10. **Embeddable & Extensible** – Can integrate with C/C++/Java.
+
+---
+
+## 🔹 **Why is Python called an interpreted language?**
+
+Python is called interpreted because the source code is executed line-by-line by the **Python Virtual Machine (PVM)** at runtime, without being fully converted to machine code beforehand. The interpreter reads, compiles to bytecode, and executes it immediately.
+
+> ✅ Technically, Python is *bytecode-interpreted*, not purely interpreted — it first compiles to `.pyc` bytecode, then interprets it.
+
+---
+
+## 🔹 **Difference Between Compiled and Interpreted Languages**
+
+| Feature             | Compiled Language (e.g., C, C++)          | Interpreted Language (e.g., Python, JS)       |
+|---------------------|-------------------------------------------|-----------------------------------------------|
+| Execution           | Converted to machine code before running  | Executed line-by-line at runtime              |
+| Speed               | Faster execution                          | Slower due to interpretation overhead         |
+| Portability         | Platform-specific binaries                | Portable if interpreter available             |
+| Error Detection     | Compile-time errors                       | Runtime errors                                |
+| Debugging           | Harder                                    | Easier                                        |
+
+---
+
+## 🔹 **What makes Python dynamically typed?**
+
+In Python, **variable types are determined at runtime**, not declared in advance. You can assign any type to a variable, and even change its type later.
+
+```python
+x = 5        # int
+x = "hello"  # now str — no error!
+```
+
+The interpreter infers the type based on the assigned value.
+
+---
+
+## 🔹 **Why is Python platform independent?**
+
+Python code runs on the **Python Virtual Machine (PVM)**, which is available for all major platforms (Windows, macOS, Linux). As long as PVM is installed, the same `.py` file runs everywhere — making Python platform-independent at the **source code level**.
+
+> Bytecode (`.pyc`) is also platform-independent but requires the same Python version.
+
+---
+
+## 🔹 **Advantage of Python being a high-level language**
+
+High-level languages abstract hardware details (memory addresses, registers, etc.). Python handles memory management, garbage collection, and data structures automatically — letting developers focus on logic, not system architecture.
+
+---
+
+## 🔹 **Limitations of Python**
+
+1. **Slower Execution** – Due to interpretation and dynamic typing.
+2. **Not ideal for mobile/native apps** – Limited mobile development support.
+3. **Memory Consumption** – Higher than compiled languages.
+4. **Global Interpreter Lock (GIL)** – Limits true multithreading.
+5. **Runtime Errors** – Type errors caught only during execution.
+6. **Less control over hardware** – Not suitable for embedded systems or real-time OS.
+
+---
+
+## 🔹 **How does Python execute a program internally?**
+
+1. **Source Code (.py)** → Lexical Analysis → Tokenization
+2. **Parsing** → Generates Parse Tree → Converts to AST
+3. **Compilation** → AST → Bytecode (.pyc)
+4. **Execution** → PVM interprets bytecode → Machine instructions
+
+---
+
+## 🔹 **What is bytecode in Python?**
+
+Bytecode is a **low-level, platform-independent representation** of your source code. It's generated by the Python compiler and stored in `.pyc` files. PVM executes this bytecode.
+
+---
+
+## 🔹 **What is PVM (Python Virtual Machine)?**
+
+PVM is the **runtime engine** of Python that executes bytecode. It’s not a physical machine but a software layer that interprets bytecode instructions and interacts with the OS/hardware.
+
+---
+
+## 🔹 **Difference: Source Code vs Bytecode vs Machine Code**
+
+| Type          | Description                                     | Example                     |
+|---------------|-------------------------------------------------|-----------------------------|
+| Source Code   | Human-readable code written by programmer       | `print("Hello")`            |
+| Bytecode      | Intermediate, platform-independent code (.pyc)   | Generated by Python compiler|
+| Machine Code  | Binary instructions directly executed by CPU     | `01010101 11001100...`      |
+
+---
+
+## 🔹 **Does Python compile code before execution?**
+
+✅ **Yes.** Python compiles source code into **bytecode** before interpretation. This step is automatic and hidden from the user.
+
+---
+
+## 🔹 **Where is bytecode stored?**
+
+In `__pycache__` folder as `.pyc` files (e.g., `module.cpython-311.pyc`). Created when a module is imported or when using `py_compile`.
+
+---
+
+## 🔹 **Is Python fully interpreted? Explain.**
+
+❌ **No.** Python is **bytecode-interpreted**:
+- First, source code → compiled → bytecode
+- Then, bytecode → interpreted → by PVM
+
+So, it’s a hybrid: compilation + interpretation.
+
+---
+
+## 🔹 **What is compilation in Python?**
+
+It’s the process of converting **source code (.py)** → **bytecode (.pyc)** via the Python compiler (`compile()` function internally).
+
+---
+
+## 🔹 **What is parsing in Python?**
+
+Parsing analyzes the token stream from lexical analysis and checks if it follows Python’s grammar rules. If valid, it builds a **parse tree**.
+
+---
+
+## 🔹 **What is a parse tree?**
+
+A hierarchical tree structure representing the syntactic structure of source code according to grammar rules. Includes all syntax elements (even punctuation).
+
+---
+
+## 🔹 **What is Abstract Syntax Tree (AST)?**
+
+AST is a **simplified, semantic-focused version** of the parse tree. Removes unnecessary syntax (like colons, commas) and retains only meaningful constructs for compilation.
+
+---
+
+## 🔹 **Difference between Parse Tree and AST**
+
+| Feature        | Parse Tree                    | AST                            |
+|----------------|-------------------------------|--------------------------------|
+| Detail Level   | Contains all syntax tokens    | Only essential nodes           |
+| Structure      | Verbose, grammar-oriented     | Compact, semantics-oriented    |
+| Use Case       | Syntax validation             | Compilation, optimization      |
+
+---
+
+## 🔹 **Role of AST in Python Execution**
+
+AST is used by the compiler to generate **bytecode**. It’s also used by tools like linters, formatters, and debuggers to analyze/transform code.
+
+---
+
+## 🔹 **Compilation Pipeline in Python**
+
+1. **Lexical Analysis** → Tokenize source code
+2. **Syntax Analysis (Parsing)** → Build Parse Tree → Convert to AST
+3. **Code Generation** → AST → Bytecode
+4. **Optimization** → Optimize bytecode (limited in CPython)
+5. **Execution** → PVM interprets bytecode
+
+---
+
+## 🔹 **Steps from Source Code to Execution**
+
+1. Write `.py` file
+2. Python interpreter reads it
+3. Lexer → tokens
+4. Parser → AST
+5. Compiler → bytecode (`.pyc`)
+6. PVM → executes bytecode → output
+
+---
+
+## 🔹 **Lexical Analysis in Python**
+
+Breaks source code into **tokens** (keywords, identifiers, operators, literals, etc.) — e.g., `if x > 5:` → [`if`, `x`, `>`, `5`, `:`]
+
+---
+
+## 🔹 **Syntax Analysis in Python**
+
+Checks whether token sequence follows Python’s grammar. Builds parse tree → AST. Throws `SyntaxError` if invalid.
+
+---
+
+## 🔹 **What happens if there is a syntax error during parsing?**
+
+Python raises a **`SyntaxError`** and stops execution. No bytecode is generated.
+
+```python
+print("Hello"  # SyntaxError: missing closing parenthesis
+```
+
+---
+
+## 🔹 **What is a code object in Python?**
+
+A code object is an internal data structure containing compiled bytecode, constants, variable names, etc. Created by `compile()`. Used by `exec()` or `eval()`.
+
+```python
+code = compile('x = 5', '<string>', 'exec')
+exec(code)
+```
+
+---
+
+## 🔹 **What is .pyc file in Python?**
+
+Compiled bytecode file. Improves startup time — Python skips recompilation if `.pyc` is newer than `.py`.
+
+---
+
+## 🔹 **When are .pyc files created?**
+
+- When a module is **imported**
+- When using `py_compile.compile()`
+- Automatically by interpreter (not for directly executed scripts)
+
+---
+
+## 🔹 **Purpose of __pycache__ folder**
+
+Stores `.pyc` files for imported modules. Organized by Python version (e.g., `module.cpython-311.pyc`) to avoid conflicts.
+
+---
+
+## 🔹 **Does Python recompile code every time?**
+
+❌ **No.** If `.pyc` exists and is newer than `.py`, Python uses it. Recompiles only if source is modified or `.pyc` is missing/older.
+
+---
+
+## 🔹 **Built-in Data Types in Python**
+
+- **Numeric**: `int`, `float`, `complex`
+- **Boolean**: `bool`
+- **Sequence**: `str`, `list`, `tuple`
+- **Mapping**: `dict`
+- **Set**: `set`, `frozenset`
+- **Binary**: `bytes`, `bytearray`, `memoryview`
+- **NoneType**: `None`
+
+---
+
+## 🔹 **Mutable vs Immutable Types**
+
+| Mutable (can change)       | Immutable (cannot change)      |
+|----------------------------|--------------------------------|
+| `list`, `dict`, `set`      | `int`, `float`, `str`, `tuple` |
+| `bytearray`                | `frozenset`, `complex`, `bool` |
+
+---
+
+## 🔹 **Why are strings immutable?**
+
+1. **Security** – Prevent accidental/modification of sensitive data.
+2. **Performance** – Enables string interning and hashing (for dict keys).
+3. **Thread Safety** – Safe to share across threads without locks.
+
+---
+
+## 🔹 **What is None type in Python?**
+
+Represents absence of value or null. Singleton object of `NoneType`.
+
+```python
+x = None
+print(type(x))  # <class 'NoneType'>
+```
+
+---
+
+## 🔹 **Can Python store multiple data types in a single variable?**
+
+✅ Yes — but not simultaneously. A variable can be reassigned to any type.
+
+```python
+x = 5
+x = "hello"
+x = [1, 2, 3]
+```
+
+Also, containers like `list`, `tuple`, `dict` can hold mixed types.
+
+---
+
+## 🔹 **What is type casting in Python?**
+
+Converting one data type to another.
+
+```python
+int("5")     → 5
+str(10)      → "10"
+float(True)  → 1.0
+```
+
+---
+
+## 🔹 **Implicit vs Explicit Conversion**
+
+| Implicit (Automatic)        | Explicit (Manual)             |
+|-----------------------------|-------------------------------|
+| `5 + 3.2 → 8.2` (int→float) | `int(3.9) → 3`                |
+| `True + 1 → 2`              | `str(100)`                    |
+
+---
+
+## 🔹 **Examples of implicit conversion**
+
+```python
+print(5 + 2.5)   # 7.5 → int promoted to float
+print(True + 5)  # 6 → bool → int
+print("Hi" + str(5))  # Explicit needed — no auto str conversion
+```
+
+---
+
+## 🔹 **What happens when you convert float to int?**
+
+Decimal part is **truncated (not rounded)**.
+
+```python
+int(3.9) → 3
+int(-2.7) → -2
+```
+
+---
+
+## 🔹 **Can we always convert string to int?**
+
+❌ No — only if string represents a valid integer.
+
+```python
+int("123")   → 123 ✅
+int("3.14")  → ❌ ValueError
+int("abc")   → ❌ ValueError
+```
+
+---
+
+## 🔹 **Error if type conversion fails?**
+
+→ **`ValueError`**
+
+```python
+int("hello")  # ValueError: invalid literal for int()
+```
+
+---
+
+## 🔹 **Difference between input() and print()**
+
+| `input()`                        | `print()`                      |
+|----------------------------------|--------------------------------|
+| Reads user input (always `str`)  | Outputs data to console        |
+| Pauses program until Enter       | Doesn’t pause                  |
+| Returns string                   | Returns `None`                 |
+
+---
+
+## 🔹 **Why does input() always return a string?**
+
+For safety and flexibility — avoids assumptions about expected type. User must explicitly convert using `int()`, `float()`, etc.
+
+---
+
+## 🔹 **How to take integer input?**
+
+```python
+age = int(input("Enter age: "))
+```
+
+---
+
+## 🔹 **What are sep and end in print()?**
+
+- `sep` → separator between values (default: space `' '`)
+- `end` → what to print at end (default: newline `'\n'`)
+
+```python
+print("A", "B", sep="-", end="!")  # Output: A-B!
+```
+
+---
+
+## 🔹 **Take multiple inputs in one line**
+
+```python
+# Space-separated
+a, b = map(int, input().split())
+
+# Comma-separated
+name, age = input().split(",")
+age = int(age)
+```
+
+---
+
+## 🔹 **Format output in Python**
+
+```python
+name = "Alice"; score = 95
+
+# f-string (recommended)
+print(f"{name} scored {score}")
+
+# .format()
+print("{} scored {}".format(name, score))
+
+# % formatting
+print("%s scored %d" % (name, score))
+```
+
+---
+
+## 🔹 **Difference between / and //**
+
+- `/` → True division → always returns `float`
+- `//` → Floor division → returns `int` (rounded down)
+
+```python
+10 / 3  → 3.333...
+10 // 3 → 3
+-10 // 3 → -4  (floor toward -∞)
+```
+
+---
+
+## 🔹 **Use of % operator**
+
+1. **Modulo** → remainder after division: `10 % 3 → 1`
+2. **String formatting** (legacy): `"Hi %s" % name`
+
+---
+
+## 🔹 **Use of ** operator**
+
+Exponentiation: `2 ** 3 → 8`, `4 ** 0.5 → 2.0`
+
+---
+
+## 🔹 **Why ^ is not power operator?**
+
+In Python, `^` is **bitwise XOR**, not exponentiation.
+
+```python
+2 ^ 3 → 1  (binary: 10 XOR 11 = 01)
+2 ** 3 → 8
+```
+
+---
+
+## 🔹 **Assignment Operators**
+
+`=`, `+=`, `-=`, `*=`, `/=`, `//=`, `%=`, `**=`
+
+```python
+x = 5
+x += 3  # x = x + 3 → 8
+```
+
+---
+
+## 🔹 **Difference between = and ==**
+
+- `=` → assignment operator
+- `==` → equality comparison operator
+
+```python
+x = 5   # assigns 5 to x
+x == 5  # checks if x equals 5 → True
+```
+
+---
+
+## 🔹 **What does += do internally?**
+
+For **immutable** types → creates new object.
+
+```python
+x = 5
+x += 3  # equivalent to x = x + 3 → new int object
+```
+
+For **mutable** types (like list) → may modify in-place.
+
+---
+
+## 🔹 **Output of `5 > 3 > 1`**
+
+✅ `True` — Chained comparison → `(5 > 3) and (3 > 1)`
+
+---
+
+## 🔹 **Can relational operators be chained?**
+
+✅ Yes — `a < b < c` → `a < b and b < c`
+
+```python
+1 < x < 10  # checks if x is between 1 and 10
+```
+
+---
+
+## 🔹 **What is a variable in Python?**
+
+A named reference to an object in memory. Variables don’t store values — they point to objects.
+
+---
+
+## 🔹 **Why no need to declare variable type?**
+
+Python is **dynamically typed** — interpreter infers type at assignment.
+
+---
+
+## 🔹 **Can we change data type dynamically?**
+
+✅ Yes — reassign variable to different type.
+
+```python
+x = 5      # int
+x = "hi"   # now str
+```
+
+---
+
+## 🔹 **Multiple Assignment**
+
+```python
+a = b = c = 0      # All point to same object
+x, y = 10, 20      # Tuple unpacking
+name, age = ["Ali", 25]
+```
+
+---
+
+## 🔹 **Swap two variables without third**
+
+```python
+a, b = b, a
+```
+
+---
+
+## 🔹 **Identifiers in Python**
+
+Names given to variables, functions, classes, modules.
+
+---
+
+## 🔹 **Rules for naming identifiers**
+
+1. Start with letter (a-z, A-Z) or underscore `_`
+2. Followed by letters, digits, underscores
+3. Case-sensitive
+4. Cannot be keyword
+5. No special chars (`@`, `$`, `-`, space)
+
+✅ Valid: `count`, `_private`, `MAX_SIZE`  
+❌ Invalid: `1var`, `my-var`, `class`
+
+---
+
+## 🔹 **Can identifier start with number?**
+
+❌ No — `1var` is invalid. Must start with letter or `_`.
+
+---
+
+## 🔹 **Identifier vs Keyword**
+
+- **Identifier** → User-defined name (e.g., `my_var`, `calculate`)
+- **Keyword** → Reserved word with special meaning (e.g., `if`, `for`, `def`)
+
+---
+
+## 🔹 **Is Python case-sensitive?**
+
+✅ Yes — `Name`, `name`, `NAME` are different identifiers.
+
+---
+
+## 🔹 **Who developed Python?**
+
+👨‍💻 **Guido van Rossum**
+
+---
+
+## 🔹 **When was Python first released?**
+
+📆 **February 20, 1991** (Python 0.9.0)
+
+---
+
+## 🔹 **Why was Python created?**
+
+To create a language that emphasized **code readability**, simplicity, and productivity — successor to ABC language.
+
+---
+
+## 🔹 **Why named “Python”?**
+
+Named after **Monty Python’s Flying Circus** — Guido was a fan!
+
+---
+
+## 🔹 **Major versions of Python**
+
+- Python 1.x (1994)
+- Python 2.x (2000) → EOL Jan 1, 2020
+- Python 3.x (2008) → Current standard
+
+---
+
+## 🔹 **Why was Python 2 discontinued?**
+
+Python 3 introduced **backward-incompatible improvements** (Unicode, print function, etc.). Maintaining both versions was unsustainable. Community migrated to Python 3.
+
+---
+
+## 🔹 **Output: `print(True + True)`**
+
+✅ `2` — `True` = 1, `False` = 0 in arithmetic.
+
+---
+
+## 🔹 **Output: `print(10 and 0 or 5)`**
+
+✅ `5`
+
+Explanation:
+- `10 and 0` → `0` (since `and` returns first falsy or last truthy)
+- `0 or 5` → `5` (since `or` returns first truthy or last falsy)
+
+---
+
+## 🔹 **Output: `print(5 > 3 > 2)`**
+
+✅ `True` — Chained comparison → `(5>3) and (3>2)`
+
+---
+
+## 🔹 **Output: `print(bool(""))`**
+
+✅ `False` — Empty string is falsy.
+
+Falsy values: `""`, `0`, `[]`, `{}`, `None`, `False`
+
+---
+
+## 🔹 **Output: `print(10 / 3)`**
+
+✅ `3.3333333333333335` — True division → float
+
+---
+
+## 🔹 **Output: `print(10 // 3)`**
+
+✅ `3` — Floor division → int (toward -∞)
+
+---
+
+✅ **All questions answered comprehensively!** Let me know if you want diagrams, deeper dives, or quizzes on any topic!

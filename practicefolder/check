@@ -1,0 +1,133 @@
+# name = "sohil"                                                    //fString se variable kese input kare... 
+# print(f"name is your {name} to what do  you think {name} dekha")
+
+
+# sk = "name is your {} to do {} smajo"                        
+# print(sk.format("rakesh","kamlesh"))                                      //format way me output 
+# print("hello this is me {} this is your{}".format(name,Class))           // format way me output second way..
+
+# name,age,salary = input("enter the values").split()                       # Multiple input lene ke liye
+# print("welcome")
+# print(name)
+# print(age)
+# print(salary)
+
+
+# name,age,salary = input("enter the values").split(maxsplit=2)           #split("=>",maxsplit=2)    
+# print("welcome")
+# print(name)
+# print(age)
+# print(salary)
+
+# mark1,mark2 =map(int,input("enter the values").split())
+# print(mark1+5,end=" ")
+# print(mark2+6)
+
+# data = input("enter the value").split()
+# print(data)
+# print(data[0])
+# print(data[2])
+
+# print(0B1000111111)
+# print(bin(0o17))
+# x=9887_5543.14_67576576458
+# print(x)
+# print(type(x))
+
+# x=0o154.76
+# print(x)
+# print(type(x))
+
+# import math
+# a = 5.46696786
+# print(round(a,2))
+
+# import keyword
+# print(len(keyword.kwlist))
+# print(keyword.iskeyword("rakesh"))
+
+# print(oct(197))
+
+# name ="sohil khan"
+# age = 27
+# print(f"hello sir me kya karu{name} tere sath {age}")
+# print(("hello sir me kya {} karu agar me {} sochu").format(name,age))
+# a,b,c = map(int,input("enter the value").split())
+# print(a+b+c)
+
+# print(0x2AB)
+# x=0b1111+4j
+# print(x.real)
+# print(x.imag)
+
+# print(False+True)
+# a=int(13.4)
+# print(a)
+# print(type(a))
+
+# print("bahu"+"1")
+
+# print(0 and 20)
+
+# a,c=10,20
+
+
+# print(a,c)
+
+
+# a,b = map(int,input("enter the value").split(" "))
+# print(a,b)
+
+# a = 0b1101
+# print(a)
+# print(type(a))
+
+# a = 1.2e2
+# print (a)
+# print (type(a))
+
+# a="10"
+# b="20"
+# print(a+b)
+# print(a-b)
+# print(a*b)
+
+# print("deepika"*5)
+
+# print(-5/)
+
+# print(int("10x"))
+# print(10%2)
+# print(-17//3)
+# print(-17%3)
+
+
+
+# print(-17/3)
+# print((2+3)*5)
+# print(3+16/2**3)
+# print(-3**2)
+
+# a=256
+# b=256
+# print(id(a))
+# print(id())
+
+# 
+
+# a='a'==97
+# print(a)
+
+# b=ord('b')==98
+# print(b)
+
+
+
+
+
+
+
+
+
+
+
