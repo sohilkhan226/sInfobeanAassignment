@@ -14,6 +14,21 @@
 # Celsius = 25
 # Fahrenheit = 77.0
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 cel = float(input("Enter temperature in Celsius: "))
 
 far = (cel * 9 / 5) + 32

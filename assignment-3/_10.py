@@ -12,6 +12,12 @@
 # Output:
 # Percentage = 80%
 
+
+
+
+
+
+
 total = float(input("Enter total marks: "))
 obtained = float(input("Enter obtained marks: "))
 

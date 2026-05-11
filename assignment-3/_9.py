@@ -7,7 +7,7 @@
 
 # Input:
 # Distance = 100
-# Mileage = 20
+# Mileage = 20km/
 # Petrol Price = 100
 
 # Output:

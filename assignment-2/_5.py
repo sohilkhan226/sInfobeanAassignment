@@ -13,6 +13,8 @@
 # Tax = ₹240
 # Total = ₹2240
 
+
+
 cart = float(input("Enter cart total amount: "))
 
 tax = cart * 12 / 100

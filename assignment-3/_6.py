@@ -13,10 +13,10 @@
 # Final = 900
 # ------------------
 
-amount = float(input("Enter total amount: "))
-
-discount = amount * 10 / 100
-final = amount - discount
-
-print("Discount =", discount)
-print("Final =", final)
+  amount = float(input("Enter total amount: "))
+  
+  discount = amount * 10 // 100
+  final = amount - discount
+  
+  print("Discount =", discount)
+  print("Final =", final)
