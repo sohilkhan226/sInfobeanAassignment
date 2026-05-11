@@ -1,0 +1,174 @@
+                   
+                   # Python Keywords and Identifiers - MCQs
+
+**1. Which of the following is a valid Python keyword?**  
+A) define  
+B) function  
+C) lambda  
+D) include  
+**Answer: C) lambda**
+
+**2. Which of the following can be used as an identifier in Python?**  
+A) 2name  
+B) class  
+C) student_name  
+D) my-name  
+**Answer: C) student_name** *(Kyunki identifier number se start nahi ho sakta, 'class' ek keyword hai, aur hyphen '-' allowed nahi hai)*
+
+**3. What will be the output?**
+```python
+True = 5 
+print(True)
+```
+A) 5  
+B) True  
+C) Error  
+D) None  
+**Answer: C) Error** *(Python 3 mein 'True' ek keyword hai, isme value assign karne par SyntaxError aayega)*
+
+**4. Which symbol is allowed in Python identifiers?**  
+A) @  
+B) #  
+C) $  
+D) _  
+**Answer: D) _** *(Sirf underscore allowed hai)*
+
+**5. Which of the following is NOT a Python keyword?**  
+A) elif  
+B) yield  
+C) eval  
+D) while  
+**Answer: C) eval** *(eval ek built-in function hai, keyword nahi)*
+
+**6. What will be the output?**
+```python
+my_var = 10 
+My_var = 20 
+print(my_var + My_var)
+```
+A) 10  
+B) 20  
+C) 30  
+D) Error  
+**Answer: C) 30** *(Python case-sensitive hai, isliye dono variables alag hain)*
+
+**7. Which statement is correct about identifiers?**  
+A) They can start with numbers  
+B) They are case-sensitive  
+C) Spaces are allowed  
+D) Keywords can be used freely  
+**Answer: B) They are case-sensitive**
+
+**8. Which identifier is invalid?**  
+A) _temp  
+B) temp2  
+C) 2temp  
+D) temp_value  
+**Answer: C) 2temp** *(Identifier number se start nahi ho sakta)*
+
+**9. What will happen?**
+```python
+for = 7 
+print(for)
+```
+A) 7  
+B) for  
+C) Syntax Error  
+D) Runtime Error  
+**Answer: C) Syntax Error** *(Kyunki 'for' ek keyword hai)*
+
+**10. Which keyword is used to define a function?**  
+A) func  
+B) define  
+C) def  
+D) function  
+**Answer: C) def**
+
+**11. Which of the following identifiers follows Python naming rules?**  
+A) first-name  
+B) first name  
+C) first_name  
+D) 1st_name  
+**Answer: C) first_name**
+
+**12. What is the output?**
+```python
+a = 5 
+A = 10 
+print(a == A)
+```
+A) True  
+B) False  
+C) Error  
+D) 15  
+**Answer: B) False** *(a aur A alag variables hain, aur 5, 10 ke barabar nahi hai)*
+
+**13. Which keyword is used for exception handling?**  
+A) try  
+B) catch  
+C) final  
+D) check  
+**Answer: A) try**
+
+**14. Identify the invalid identifier.**  
+A) \_\_name\_\_  
+B) value_1  
+C) break  
+D) student123  
+**Answer: C) break** *(break ek keyword hai)*
+
+**15. What will be the output?**
+```python
+x_y = 8 
+print(x_y)
+```
+A) x_y  
+B) 8  
+C) Error  
+D) None  
+**Answer: B) 8**
+
+**16. Which keyword is used to create a loop in Python?**  
+A) iterate  
+B) repeat  
+C) loop  
+D) while  
+**Answer: D) while**
+
+**17. Which of the following is a valid identifier?**  
+A) totalMarks  
+B) total-marks  
+C) total marks  
+D) @marks  
+**Answer: A) totalMarks**
+
+**18. What will be the output?**
+```python
+name = 'Python' 
+print(name)
+```
+A) Python  
+B) "Python"  
+C) name  
+D) Error  
+**Answer: A) Python**
+
+**19. Which keyword is used to import modules?**  
+A) include  
+B) import  
+C) using  
+D) module  
+**Answer: B) import**
+
+**20. What is the output?**
+```python
+if = 10 
+print(if)
+```
+A) 10  
+B) if  
+C) Syntax Error  
+D) Runtime Error  
+**Answer: C) Syntax Error** *(Kyunki 'if' ek keyword hai)*
+
+

@@ -1,0 +1,279 @@
+
+
+
+
+# LOOP MCQ – Solutions
+
+**1) What is the idiomatic way to create an infinite loop in Python?**  
+A) for (;;):  
+**B) while True:**  
+C) loop:  
+D) while 1 == 1:  
+✅ **Answer: B) while True:** *(Most Pythonic way)*
+
+---
+
+**2) When does the else block attached to a loop execute?**  
+A) Every iteration  
+B) Only if break is used  
+**C) Only when the loop completes normally without break**  
+D) When exception occurs  
+✅ **Answer: C**
+
+---
+
+**3) Output of:**
+```python
+for char in "Hi":
+    print(char * 2)
+```
+A) HiiH  
+B) HHii  
+**C) HH \n ii**  
+D) HiHi  
+✅ **Answer: C** *(Prints HH and ii on separate lines)*
+
+---
+
+**4) Output of:**
+```python
+i = 0
+while i < 3:
+    if i == 1:
+        break
+    i += 1
+else:
+    print("Done")
+```
+A) Done  
+B) 1  
+C) 0  
+**D) No output**  
+✅ **Answer: D** *(Break hone ki wajah se else execute nahi hoga)*
+
+---
+
+**5) Which part executes exactly once?**  
+**A) Initialization**  
+B) Condition  
+C) Increment/Decrement  
+D) Both A and B  
+✅ **Answer: A**
+
+---
+
+**6) Iterating over boolean:**
+```python
+for i in True:
+    print(i)
+```
+A) Prints True  
+B) Prints 1  
+**C) Throws TypeError**  
+D) Infinite  
+✅ **Answer: C**
+
+---
+
+**7) Final value of x:**
+```python
+x = 0
+for i in range(2):
+    for j in range(2):
+        if i == j:
+            break
+        x += 1
+print(x)
+```
+A) 0  
+**B) 1**  
+C) 2  
+D) 4  
+✅ **Answer: B**
+
+---
+
+**8) Output:**
+```python
+a = 5
+while 0 < a < 3:
+    a -= 1
+print(a)
+```
+A) 2  
+B) 3  
+**C) 5**  
+D) 0  
+✅ **Answer: C** *(Condition false from start)*
+
+---
+
+**9) Length after loop:**
+```python
+s = "A"
+for _ in range(3):
+    s += s
+print(len(s))
+```
+A) 3  
+B) 4  
+C) 6  
+**D) 8**  
+✅ **Answer: D** *(1→2→4→8)*
+
+---
+
+**10) x increment count:**
+```python
+x = 0
+for i in range(1, 10, 2):
+    if i % 3:
+        x += 1
+print(x)
+```
+Values: 1,3,5,7,9  
+✅ i%3 false for 3 & 9  
+✅ increments for 1,5,7 → 3 times  
+**Answer: B) 3**
+
+---
+
+**11) Output:**
+```python
+x, y = 0, 1
+while x < 3:
+    x, y = y, x + y
+print(x)
+```
+Sequence: 0→1→1→2→3  
+✅ **Answer: B) 3**
+
+---
+
+**12) Output:**
+```python
+i = 5
+while i > 0:
+    i -= 1
+    if i == 2:
+        continue
+else:
+    print(i)
+```
+Loop finishes normally  
+✅ i becomes 0  
+✅ **Answer: B) Prints 0**
+
+---
+
+**13) Final string:**
+```python
+s = ""
+for i in range(4):
+    if i < 2:
+        s += "A"
+    if i > 1:
+        s += "B"
+    if i == 3:
+        break
+print(s)
+```
+i=0:A  
+i=1:A  
+i=2:B  
+i=3:B break  
+✅ Result = **AABB**  
+**Answer: A**
+
+---
+
+**14) XOR swap twice:**
+```python
+a = 5
+b = 3
+for _ in range(2):
+    a ^= b
+    b ^= a
+    a ^= b
+print(a, b)
+```
+Swap twice → original values  
+✅ **Answer: A) 5 3**
+
+---
+
+**15) Output:**
+```python
+for i in range(3):
+    i = str(i)
+    print(i + "1", end=" ")
+```
+0→01  
+1→11  
+2→21  
+✅ **Answer: A) 01 11 21**
+
+---
+
+**16) Negative modulo:**
+```python
+x = ""
+for i in range(-2, 1):
+    x += str(i % 2)
+print(x)
+```
+-2%2=0  
+-1%2=1  
+0%2=0  
+✅ Result = **010**  
+**Answer: B**
+
+---
+
+**17) Final x:**
+```python
+x = 0
+for i in range(2):
+    for j in range(2):
+        continue
+        x += 1
+    x += 1
+print(x)
+```
+Inner loop never increments  
+Outer runs twice → x+=1 twice  
+✅ **Answer: B) 2**
+
+---
+
+**18) Output:**
+```python
+s = "1"
+for i in range(4):
+    s = s * i
+print(len(s))
+```
+i=0 → ""  
+Rest remain ""  
+✅ length = 0  
+**Answer: C**
+
+---
+
+**19)** (Same as Q8)  
+✅ **Answer: C) 5**
+
+---
+
+**20) for-else construct:**
+```python
+for i in range(5):
+    if i == 3:
+        pass
+else:
+    print("Secure", end="")
+```
+No break used → else executes  
+✅ Prints once  
+**Answer: A) Secure prints once.**
+

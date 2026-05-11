@@ -1,0 +1,199 @@
+Yeh raha aapka **Membership and Identity Operators** ka complete solved section:
+
+---
+
+# MCQs on Membership & Identity Operators
+
+**1. What is the output of the following code snippet?**
+```python
+data = {"a": 1, "b": 2} 
+print(1 in data)
+```
+A) True  
+**B) False**  
+C) TypeError  
+D) None  
+**Answer: B) False** *(Dictionary mein `in` hamesha 'keys' check karta hai, 'values' nahi)*
+
+**2. Consider the following code. What will be printed?**
+```python
+text = "Python Programming" 
+print("pro" in text)
+```
+A) True  
+**B) False**  
+C) None  
+D) Error  
+**Answer: B) False** *(Python case-sensitive hai, string mein "Pro" (P capital) ya "programming" (p small) hai, lekin "pro" exact match nahi ho raha)*
+
+**3. Which of the following statements is TRUE regarding the performance of the in operator?**  
+A) It is equally fast for lists and sets.  
+B) It is faster for a list than a set because lists are ordered.  
+**C) It is significantly faster for a set than a list for large datasets.**  
+D) It cannot be used with a range object.  
+**Answer: C) It is significantly faster for a set than a list for large datasets.** *(Sets hashing use karte hain isliye search fast hoti hai)*
+
+**4. What is the result of this expression?**
+```python
+nested_list = [1, [2, 3], 4] 
+print(2 in nested_list)
+```
+A) True  
+**B) False**  
+C) TypeError  
+D) [2, 3]  
+**Answer: B) False** *(2 ek nested list ke andar hai, main list ka direct member nahi hai)*
+
+**5. What is the output of the code below?**
+```python
+x = "123" 
+y = 1 
+print(y in x)
+```
+A) True  
+B) False  
+**C) TypeError**  
+D) 123  
+**Answer: C) TypeError** *(String ke andar sirf string hi dhundhi ja sakti hai, integer nahi)*
+
+**6. Which of the following are the membership operators in Python?**  
+A) is and is not  
+**B) in and not in**  
+C) && and ||  
+D) ++ and –  
+**Answer: B) in and not in**
+
+**7. What will be the output of `print('a' in 'apple')`?**  
+**A) True**  
+B) False  
+C) None  
+D) Error  
+**Answer: A) True**
+
+**8. What is the result of the following code?**
+```python
+numbers = [10, 20, 30, 40] 
+print(50 not in numbers)
+```
+**A) True**  
+B) False  
+C) None  
+D) 50  
+**Answer: A) True**
+
+**9. Membership operators always return which data type?**  
+A) Integer  
+B) String  
+**C) Boolean (True or False)**  
+D) Float  
+**Answer: C) Boolean (True or False)**
+
+**10. Fill in the blank to make the output True:**
+```python
+colors = ["red", "blue", "green"] 
+print("red" _______ colors)
+```
+A) is  
+B) ==  
+**C) in**  
+D) inside  
+**Answer: C) in**
+
+**11. Which of the following are the identity operators in Python?**  
+A) in and not in  
+B) == and !=  
+**C) is and is not**  
+D) and and or  
+**Answer: C) is and is not**
+
+**12. What does the is operator actually compare?**  
+A) The values of two objects  
+**B) The memory addresses (ID) of two objects**  
+C) The data types of two objects  
+D) The length of two objects  
+**Answer: B) The memory addresses (ID) of two objects**
+
+**13. What is the output of the following code?**
+```python
+x = 5 
+y = 5 
+print(x is y)
+```
+**A) True**  
+B) False  
+C) None  
+D) Error  
+**Answer: A) True** *(Python small integers ko optimize/cache karta hai, isliye unka ID same hota hai)*
+
+**14. Which operator returns `True` if two variables do NOT point to the same object?**  
+A) is no  
+B) not is  
+C) !=  
+**D) is not**  
+**Answer: D) is not**
+
+**15. What is the output of this code?**
+```python
+list1 = [1, 2] 
+list2 = [1, 2] 
+print(list1 is list2)
+```
+A) True  
+**B) False**  
+C) None  
+D) [1, 2]  
+**Answer: B) False** *(Dono lists ki value same hai par memory mein ye alag-alag objects hain)*
+
+**16. What is the output of the following code?**
+```python
+a = [1, 2, 3] 
+b = a 
+c = a[:] 
+print(a is b, a is c)
+```
+A) True True  
+**B) True False**  
+C) False True  
+D) False False  
+**Answer: B) True False** *(b ko a assign kiya isliye same ID, par c ek copy hai isliye different ID)*
+
+**17. Consider this code snippet. What will be the output?**
+```python
+x = "hello!" 
+y = "hello!" 
+print(x is y)
+```
+A) True  
+**B) False** *(In most environments)*  
+C) None  
+D) TypeError  
+**Answer: B) False** *(Special characters wale strings generally intern nahi hote, isliye different memory addresses hote hain. Halanki, compiler optimization ki wajah se kabhi kabhi True bhi dikha sakta hai, par standard answer False hoga)*
+
+**18. Which of the following best describes the difference between == and is?**  
+A) == checks for identity; is checks for equality.  
+B) == is for strings; is is for integers.  
+**C) == compares values; is compares memory addresses.**  
+D) There is no difference; they are interchangeable.  
+**Answer: C) == compares values; is compares memory addresses.**
+
+**19. What is the output of the following code?**
+```python
+a = None 
+print(a is None)
+```
+A) False  
+**B) True**  
+C) None  
+D) Error  
+**Answer: B) True**
+
+**20. How does Python evaluate the following?**
+```python
+print(type(True) is bool)
+```
+A) False  
+B) None  
+**C) True**  
+D) Error  
+**Answer: C) True**
+

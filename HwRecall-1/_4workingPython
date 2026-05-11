@@ -1,0 +1,145 @@
+
+
+---
+
+# MCQs on Python Internal Working
+
+**1. Python is mainly an ______ language.**  
+A) Compiled  
+B) Interpreted  
+C) Assembly  
+D) Machine  
+**Answer: B) Interpreted**
+
+**2. Which program converts Python code into bytecode?**  
+A) Loader  
+B) Compiler  
+C) Interpreter  
+D) Assembler  
+**Answer: B) Compiler** *(Note: Python internally compiles source code to bytecode before interpreting it)*
+
+**3. Python source code is first converted into:**  
+A) Machine code  
+B) Assembly code  
+C) Bytecode  
+D) Binary file  
+**Answer: C) Bytecode**
+
+**4. Bytecode in Python is stored in:**  
+A) `.exe` files  
+B) `.class` files  
+C) `.pyc` files  
+D) `.html` files  
+**Answer: C) `.pyc` files**
+
+**5. Which component executes Python bytecode?**  
+A) CPU  
+B) PVM  
+C) RAM  
+D) BIOS  
+**Answer: B) PVM**
+
+**6. PVM stands for:**  
+A) Python Variable Machine  
+B) Program Virtual Machine  
+C) Python Virtual Machine  
+D) Python Visual Machine  
+**Answer: C) Python Virtual Machine**
+
+**7. What is the correct flow of Python execution?**  
+A) Source Code → Machine Code → Bytecode  
+B) Source Code → Bytecode → PVM  
+C) Source Code → PVM → Compiler  
+D) Bytecode → Source Code → PVM  
+**Answer: B) Source Code → Bytecode → PVM**
+
+**8. Which file contains Python source code?**  
+A) `.py`  
+B) `.pyc`  
+C) `.ppt`  
+D) `.exe`  
+**Answer: A) `.py`**
+
+**9. Python is platform independent because:**  
+A) It uses machine code directly  
+B) Bytecode can run on any system with PVM  
+C) It uses only Windows  
+D) It avoids compilation  
+**Answer: B) Bytecode can run on any system with PVM**
+
+**10. Which of the following creates bytecode?**  
+A) Linker  
+B) PVM  
+C) Python Compiler  
+D) Operating System  
+**Answer: C) Python Compiler**
+
+**11. Python Virtual Machine is responsible for:**  
+A) Writing source code  
+B) Executing bytecode  
+C) Creating hardware  
+D) Storing variables permanently  
+**Answer: B) Executing bytecode**
+
+**12. Bytecode is:**  
+A) Human-readable code  
+B) Low-level intermediate code  
+C) Pure machine code  
+D) Hardware language  
+**Answer: B) Low-level intermediate code**
+
+**13. Which directory usually stores `.pyc` files?**  
+A) `system32`  
+B) `bin`  
+C) `__pycache__`  
+D) `temp`  
+**Answer: C) `__pycache__`**
+
+**14. What happens after Python source code is compiled?**  
+A) Program ends immediately  
+B) Bytecode is generated  
+C) Hardware is initialized  
+D) RAM is cleared  
+**Answer: B) Bytecode is generated**
+
+**15. Python execution is slower than C because:**  
+A) Python uses too much RAM  
+B) Python is interpreted through PVM  
+C) Python has no compiler  
+D) Python cannot use loops  
+**Answer: B) Python is interpreted through PVM**
+
+**16. Which of these is NOT part of Python internal working?**  
+A) Source Code  
+B) Bytecode  
+C) PVM  
+D) HTML Parser  
+**Answer: D) HTML Parser**
+
+**17. The Python compiler translates source code into:**  
+A) Binary language  
+B) Assembly language  
+C) Bytecode  
+D) HTML  
+**Answer: C) Bytecode**
+
+**18. The `.pyc` file helps in:**  
+A) Faster execution  
+B) Slower execution  
+C) Printing output  
+D) Taking input  
+**Answer: A) Faster execution** *(Kyunki next time compilation ki zarurat nahi padti)*
+
+**19. Which statement is TRUE about Python?**  
+A) Python directly executes source code without conversion  
+B) Python converts code into bytecode before execution  
+C) Python only works on Linux  
+D) Python cannot create executable files  
+**Answer: B) Python converts code into bytecode before execution**
+
+**20. Which of the following correctly explains Python working?**  
+A) Source Code → Compiler → Bytecode → PVM → Output  
+B) Source Code → Output → Compiler  
+C) PVM → Source Code → Bytecode  
+D) Compiler → PVM → Source Code  
+**Answer: A) Source Code → Compiler → Bytecode → PVM → Output**

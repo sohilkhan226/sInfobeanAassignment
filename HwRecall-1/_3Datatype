@@ -1,0 +1,144 @@
+
+
+                               # Python Quiz: Numeric & Boolean Types
+
+**1. What is the result of `type(0xFF)`?**  
+A) `<class 'str'>`  
+B) `<class 'hex'>`  
+C) `<class 'int'>`  
+D) `<class 'float'>`  
+**Answer: C) `<class 'int'>`** *(0xFF hexadecimal literal hai, par Python ise internally integer (int) hi maanta hai)*
+
+**2. Which of these will evaluate to False?**  
+A) `bool(-1)`  
+B) `bool(0.00001)`  
+C) `bool(0j)`  
+D) `bool("False")`  
+**Answer: C) `bool(0j)`** *(Complex number with 0 value False hota hai. "False" string True hoti hai kyunki empty nahi hai)*
+
+**3. What is the value of `float('inf') > 10100`?**  
+A) True  
+B) False  
+C) OverflowError  
+D) TypeError  
+**Answer: A) True** *(Infinity kisi bhi normal number se badi hoti hai)*
+
+**4. What is the result of `int(10.9)`?**  
+A) 11  
+B) 10  
+C) 10.0  
+D) ValueError  
+**Answer: B) 10** *(int() hamesha decimal values ko truncate/cut kar deta hai, round nahi karta)*
+
+**5. Which statement about the bool type is true?**  
+A) bool is a subclass of int.  
+B) bool is a subclass of str.  
+C) True and False are stored as strings.  
+D) bool is its own base type unrelated to numbers.  
+**Answer: A) bool is a subclass of int.** *(Python mein True ko 1 aur False ko 0 maana jata hai)*
+
+**6. What is the result of `10 // 3`?**  
+A) 3.333  
+B) 3  
+C) 4  
+D) 3.0  
+**Answer: B) 3** *(Floor division `//` integer result deta hai aur decimal ko ignore karta hai)*
+
+**7. What is the output of `type(1 + 2j)`?**  
+A) `<class 'int'>`  
+B) `<class 'complex'>`  
+C) `<class 'number'>`  
+D) `<class 'imaginary'>`  
+**Answer: B) `<class 'complex'>`**
+
+**8. What is the result of `True + True`?**  
+A) True  
+B) 2  
+C) TypeError  
+D) None  
+**Answer: B) 2** *(Kyunki Python mein True = 1, isliye 1 + 1 = 2)*
+
+**9. Which of the following represents the number 1,000,000 correctly in Python?**  
+A) 1,000,000  
+B) 1_000_000  
+C) 1.000.000  
+D) 1..000  
+**Answer: B) 1_000_000** *(Python 3.6+ mein hum numbers padhne me aasani ke liye underscore `_` ka use kar sakte hain)*
+
+**10. What does `abs(-5.5)` return?**  
+A) -5  
+B) 5  
+C) 5.5  
+D) -5.5  
+**Answer: C) 5.5** *(abs() absolute yani hamesha positive value return karta hai)*
+
+**11. What is the result of `round(2.5)` and `round(3.5)` in Python 3?**  
+A) 3 and 4  
+B) 2 and 4  
+C) 2 and 3  
+D) 3 and 3  
+**Answer: B) 2 and 4** *(Python 3 'Banker's rounding' use karta hai, yani .5 hone par hamesha nearest EVEN number par round hota hai)*
+
+**12. What is the output of `0.1 + 0.1 + 0.1 == 0.3`?**  
+A) True  
+B) False  
+C) 0.3  
+D) None  
+**Answer: B) False** *(Floating-point precision issue ke karan ye 0.30000000000000004 ke barabar hota hai, exact 0.3 nahi)*
+
+**13. Which built-in function returns a tuple of (quotient, remainder)?**  
+A) mod()  
+B) divmod()  
+C) quotrem()  
+D) split()  
+**Answer: B) divmod()**
+
+**14. What is the result of `bool(None)`?**  
+A) True  
+B) False  
+C) TypeError  
+D) None  
+**Answer: B) False**
+
+**15. What is the result of `2 ** 3 ** 2`?** *(Typo corrected from '2 3 2')*  
+A) 64  
+B) 512  
+C) 4096  
+D) 18  
+**Answer: B) 512** *(Power right-to-left solve hoti hai. Pehle 3 ** 2 = 9, fir 2 ** 9 = 512)*
+
+**16. How do you represent the imaginary part of a complex number `z = 2 + 3j`?**  
+A) z.i  
+B) z.imag  
+C) z.imaginary  
+D) z.j  
+**Answer: B) z.imag**
+
+**17. What is the result of `float(5)`?**  
+A) 5  
+B) 5.0  
+C) '5.0'  
+D) 5.0000  
+**Answer: B) 5.0**
+
+**18. Which of the following evaluates to True?**  
+A) `0 == False`  
+B) `1 === True`  
+C) `bool([])`  
+D) `None == False`  
+**Answer: A) `0 == False`** *(Python mein 0 aur False equivalent hote hain)*
+
+**19. What is the value of `-5 // 2`?**  
+A) -2  
+B) -3  
+C) -2.5  
+D) 2  
+**Answer: B) -3** *(Floor division hamesha smaller integer (neeche ki taraf) round karta hai. -2.5 floor ho kar -3 banta hai)*
+
+**20. What is the maximum value of an int in Python 3?**  
+A) $2^{31} - 1$  
+B) $2^{63} - 1$  
+C) There is no fixed maximum (limited by memory).  
+D) $10^{308}$  
+**Answer: C) There is no fixed maximum (limited by memory).** *(Python 3 mein integers ki length pe koi limit nahi hoti jab tak RAM available hai)*
+

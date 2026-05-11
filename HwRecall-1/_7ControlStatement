@@ -1,0 +1,195 @@
+Lijiye, ye raha aapka **Python Control Flow (if-else, loops, pass)** ka pura solution:
+
+---
+
+### Python Control Flow & Logical MCQs
+
+**Q1. What will the following code snippet print?**
+```python
+x = 10
+if x < 5:
+    print("x is less than 5")
+elif x > 15:
+    print("x is greater than 15")
+else:
+    print("x is between 5 and 15")
+```
+a) x is less than 5  
+b) x is greater than 15  
+**c) x is between 5 and 15**  
+d) No output  
+**Answer: c) x is between 5 and 15**
+
+**Q2. How can you execute multiple statements under a single if block in Python?**  
+a) Separate statements with a semicolon  
+**b) Indent the statements to the same level**  
+c) Use the and keyword between statements  
+d) Use the elif keyword  
+**Answer: b) Indent the statements to the same level**
+
+**Q3. What will be the output of the following code snippet?**
+```python
+x = 5
+if x < 3:
+    print("x is less than 3")
+elif x == 3:
+    print("x is equal to 3")
+else:
+    print("x is greater than 3")
+```
+a) x is less than 3  
+b) x is equal to 3  
+**c) x is greater than 3**  
+d) No output  
+**Answer: c) x is greater than 3**
+
+**Q4. What is the primary purpose of the if statement in Python?**  
+**a) To execute a block of code based on a condition**  
+b) To perform mathematical operations  
+c) To repeat a block of code  
+d) To define a function  
+**Answer: a) To execute a block of code based on a condition**
+
+**Q5. What is the purpose of the pass statement in Python?**  
+A. To terminate a loop.  
+B. To skip the current iteration and move to the next.  
+**C. To act as a null operation or placeholder where code is syntactically required.**  
+D. To return a value from a function.  
+**Answer: C) To act as a null operation or placeholder where code is syntactically required.**
+
+**Q6. What is the purpose of the if statement in Python?**  
+a) To define a function  
+b) To declare a variable  
+**C) To execute a block of code conditionally**  
+D) To create a loop  
+**Answer: C) To execute a block of code conditionally**
+
+**Q7. Which of the following operators is used for equality comparison in Python?**  
+**A) ==**  
+b) =  
+c) ===  
+D) >  
+**Answer: A) ==**
+
+**Q8. What will be the output of the following code snippet?**
+```python
+x = 5
+if x > 0:
+    print("Positive")
+else:
+    print("Negative")
+```
+**A) Positive**  
+B) Negative  
+C) Zero  
+D) Error  
+**Answer: A) Positive**
+
+**Q9. How do you represent the logical AND operator in Python?**  
+A) &&  
+**B) and**  
+C) AND  
+D) &  
+**Answer: B) and**
+
+**Q10. What is the purpose of the elif statement in Python?**  
+A) To handle exceptions  
+B) To create a loop  
+C) To define a function  
+**D) To check additional conditions after the initial if statement**  
+**Answer: D) To check additional conditions after the initial if statement**
+
+**Q11. In Python, what is the purpose of the else statement within an if-else block?**  
+A) To define a function  
+B) To check additional conditions  
+**C) To execute a block of code when the if condition is false**  
+D) To create a loop  
+**Answer: C) To execute a block of code when the if condition is false**
+
+**Q12. What is the output of the following code snippet?**
+```python
+x = 10
+if x > 5:
+    print("Greater than 5")
+elif x > 8:
+    print("Greater than 8")
+else:
+    print("Less than or equal to 5")
+```
+**A) Greater than 5**  
+B) Greater than 8  
+C) Less than or equal to 5  
+D) No output  
+**Answer: A) Greater than 5** *(Kyuki 10 > 5 true hai, isliye pehla block chalte hi elif skip ho jayega)*
+
+**Q13. Which statement is used to exit a loop prematurely in Python?**  
+**A) break**  
+B) exit  
+C) return  
+D) continue  
+**Answer: A) break**
+
+**Q14. In Python, what is the purpose of the try-except block?**  
+A) To create a loop  
+B) To check multiple conditions  
+**C) To handle exceptions**  
+D) To define a function  
+**Answer: C) To handle exceptions**
+
+**Q15. What is the output of the following code snippet?**
+```python
+for i in range(5):
+    if i == 3:
+        continue
+    print(i)
+```
+A) 0 1 2 3 4  
+**B) 0 1 2 4**  
+C) 0 1 2 0  
+D) 0 1 2 3  
+**Answer: B) 0 1 2 4** *(3 skip ho gaya kyunki continue use hua tha)*
+
+**Q16. What will be the output?**
+```python
+for i in range(3):
+    pass
+print("Hello")
+```
+A) Error  
+B) 0 1 2  
+**C) Hello**  
+D) Nothing  
+**Answer: C) Hello**
+
+**Q17. Which statement is used when a block of code is required syntactically but you do not want any action?**  
+A) break  
+B) continue  
+C) skip  
+**D) pass**  
+**Answer: D) pass**
+
+**Q18. What will happen?**
+```python
+if True:
+    pass
+print("Python")
+```
+A) Error  
+**B) Python**  
+C) Nothing  
+D) True  
+**Answer: B) Python**
+
+**Q19. Which of the following is TRUE about pass?**  
+A) It ignores errors  
+B) It terminates the loop  
+**C) It performs no operation**  
+D) It skips the next line  
+**Answer: C) It performs no operation**
+
+**Q20. Fill in the blank: The pass statement is a ______ statement.**  
+A) looping  
+**B) null**  
+C) conditional  
+D) function  
+**Answer: B) null**

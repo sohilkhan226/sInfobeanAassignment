@@ -1,0 +1,146 @@
+Lijiye, ye raha aapka **Group 5 - Operators and Their Precedence** ka complete solved section:
+
+---
+
+# Group 5 - Operators and Their Precedence MCQs
+
+**Q1. What is the output of `5 + 2 * 3`?**  
+A) 21  
+**B) 11**  
+C) 15  
+D) 10  
+**Answer: B) 11** *(Pehle multiplication `2*3=6` hoga, fir `5+6=11`)*
+
+**Q2. Which operator is used for exponentiation in Python?**  
+A) ^  
+B) //  
+**C) \*\***  
+D) %%  
+**Answer: C) \*\***
+
+**Q3. Which operator gives the remainder?**  
+A) /  
+**B) %**  
+C) //  
+D) *  
+**Answer: B) %**
+
+**Q4. What is the result of `10 // 3`?**  
+A) 3.3  
+**B) 3**  
+C) 4  
+D) 1  
+**Answer: B) 3** *(Floor division integer value deta hai)*
+
+**Q5. Which operator is used for logical AND?**  
+A) &&  
+**B) and**  
+C) &  
+D) ||  
+**Answer: B) and**
+
+**Q6. Which operator has highest precedence?**  
+A) +  
+B) *  
+**C) ()**  
+D) and  
+**Answer: C) ()** *(Parentheses ki precedence sabse zyada hoti hai)*
+
+**Q7. What is the output of `2 ** 3`?**  
+A) 6  
+**B) 8**  
+C) 9  
+D) 5  
+**Answer: B) 8** *(2 ki power 3)*
+
+**Q8. Which operator compares two values?**  
+A) Assignment  
+B) Arithmetic  
+**C) Comparison**  
+D) Membership  
+**Answer: C) Comparison**
+
+**Q9. What is the output of `8 % 3`?**  
+**A) 2**  
+B) 1  
+C) 0  
+D) 3  
+**Answer: A) 2** *(8 ko 3 se divide karne par 2 bachta hai)*
+
+**Q10. Which keyword is used for logical OR?**  
+A) ||  
+**B) or**  
+C) OR  
+D) &&  
+**Answer: B) or**
+
+**Q11. What is the output of `5 > 3`?**  
+**A) True**  
+B) False  
+C) 5  
+D) Error  
+**Answer: A) True**
+
+**Q12. Which operator checks identity?**  
+A) in  
+B) ==  
+**C) is**  
+D) !=  
+**Answer: C) is**
+
+**Q13. What is the result of `4 + 6 / 2`?**  
+A) 5  
+**B) 7.0** *(Note: Division `/` hamesha float deta hai)*  
+C) 10  
+D) 14  
+**Answer: B) 7.0** *(Pehle `6/2=3.0`, fir `4+3.0=7.0`)*
+
+**Q14. Which operator is used for multiplication?**  
+A) x  
+**B) \***  
+C) %  
+D) //  
+**Answer: B) \***
+
+**Q15. What is the output of `not True`?**  
+A) True  
+**B) False**  
+C) None  
+D) Error  
+**Answer: B) False**
+
+**Q16. Which operator is used for membership testing?**  
+**A) in**  
+B) is  
+C) ==  
+D) >=  
+**Answer: A) in**
+
+**Q17. What is the output of `3 * 2 + 1`?**  
+A) 9  
+**B) 7**  
+C) 6  
+D) 5  
+**Answer: B) 7**
+
+**Q18. Which operator is evaluated last?**  
+A) *  
+B) +  
+C) and  
+**D) or**  
+**Answer: D) or** *(Logical 'or' ki precedence sabse niche hoti hai in options mein)*
+
+**Q19. What is the result of `(5 + 3) * 2`?**  
+A) 11  
+**B) 16**  
+C) 13  
+D) 10  
+**Answer: B) 16** *(Bracket pehle solve hoga)*
+
+**Q20. Which operator is used for assignment?**  
+A) ==  
+B) :=  
+**C) =**  
+D) !=  
+**Answer: C) =**
+

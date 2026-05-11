@@ -1,0 +1,162 @@
+# PYTHON TECHNICAL ASSESSMENT
+
+                              ## Section 1: Output Basics
+
+**1. What is the default separator (sep) used in the print() function?**  
+A) `\n` (newline)  
+B) `""` (empty string)  
+C) `" "` (single space)  
+D) `","` (comma)  
+**Answer: C) `" "` (single space)**
+
+**2. Which argument determines what is printed at the very end of a print() statement?**  
+A) `sep`  
+B) `end`  
+C) `final`  
+D) `stop`  
+**Answer: B) `end`**
+
+**3. What is the output of `print("A", "B", sep="->", end="!")`?**  
+A) `A B-> !`  
+B) `A->B!`  
+C) `AB->!`  
+D) `A->B-> !`  
+**Answer: B) `A->B!`**
+
+**4. How do you print a double newline using only the end parameter?**  
+A) `end="\n\n"`  
+B) `end="2n"`  
+C) `end="\n" * 2`  
+D) `sep="\n\n"`  
+**Answer: A) `end="\n\n"`**
+
+---
+
+## Section 2: String Formatting
+
+**5. What is the correct syntax for an f-string?**  
+A) `f("Value: {x}")`  
+B) `f"Value: {x}"`  
+C) `str(f"Value: x")`  
+D) `"{f}Value: {x}"`  
+**Answer: B) `f"Value: {x}"`**
+
+**6. What do the curly braces `{}` do inside an f-string?**  
+A) Create a dictionary  
+B) Start a code block  
+C) Act as a placeholder to evaluate variables  
+D) Print literal braces to the screen  
+**Answer: C) Act as a placeholder to evaluate variables**
+
+**7. What is the result of `"{} is {}".format("Python", "fun")`?**  
+A) `{Python} is {fun}`  
+B) `Python is fun`  
+C) `fun is Python`  
+D) `Python fun`  
+**Answer: B) `Python is fun`**
+
+**8. How do you format a float to exactly 2 decimal places in an f-string?**  
+A) `f"{val:.2f}"`  
+B) `f"{val.2f}"`  
+C) `f"{val:2}"`  
+D) `f"{round(val, 2)}"`  
+**Answer: A) `f"{val:.2f}"`**
+
+---
+
+## Section 3: Input & Conversion
+
+**9. What data type does the `input()` function return by default?**  
+A) `int`  
+B) `float`  
+C) `str` (string)  
+D) `None`  
+**Answer: C) `str` (string)**
+
+**10. How do you correctly convert a user's input into an integer?**  
+A) `x = int(input())`  
+B) `x = input(int)`  
+C) `x = input().int()`  
+D) `int x = input()`  
+**Answer: A) `x = int(input())`**
+
+**11. What happens if you run `int(input())` and the user types `25.7`?**  
+A) It returns `25`  
+B) It returns `26`  
+C) It raises a `ValueError`  
+D) It raises a `TypeError`  
+**Answer: C) It raises a `ValueError`**
+
+---
+
+## Section 4: Split & Map
+
+**12. If a user inputs `"A B C"`, what does `input().split()` return?**  
+A) `"ABC"`  
+B) `["A", "B", "C"]`  
+C) `("A", "B", "C")`  
+D) `["A B C"]`  
+**Answer: B) `["A", "B", "C"]`**
+
+**13. What is the purpose of the `map()` function when taking input?**  
+A) To create a map or dictionary  
+B) To apply a function (like `int`) to all parts of the input  
+C) To sort the input data  
+D) To remove extra spaces  
+**Answer: B) To apply a function (like `int`) to all parts of the input**
+
+**14. How do you take two integers from one line of input?**  
+A) `a, b = int(input().split())`  
+B) `a, b = map(int, input().split())`  
+C) `a, b = input().split().map(int)`  
+D) `a, b = map(input().split(), int)`  
+**Answer: B) `a, b = map(int, input().split())`**
+
+**15. What is the result of `m1, m2 = map(float, ["10", "20"])`?**  
+A) `m1=10.0, m2=20.0`  
+B) `m1="10", m2="20"`  
+C) `m1=10, m2=20`  
+D) It causes an error  
+**Answer: A) `m1=10.0, m2=20.0`**
+
+---
+
+## Section 5: Advanced Logic
+
+**16. What happens if you set `sep=None` in a `print()` statement?**  
+A) No space is used  
+B) The default single space is used  
+C) It raises an error  
+D) It prints the word `"None"`  
+**Answer: B) The default single space is used**
+
+**17. What is the output of `print("Hi", end=" ")` followed by `print("Anil")`?**  
+A) `Hi\nAnil`  
+B) `Hi Anil`  
+C) `HiAnil`  
+D) `Anil Hi`  
+**Answer: B) `Hi Anil`**
+
+**18. What is the length of the list returned by `"1,2,3,4".split(",")`?**  
+A) `1`  
+B) `4`  
+C) `7`  
+D) `3`  
+**Answer: B) `4`**
+
+**19. Which escape sequence represents a tab?**  
+A) `\t`  
+B) `\b`  
+C) `\n`  
+D) `\r`  
+**Answer: A) `\t`**
+
+**20. Which code will cause a `TypeError`?**  
+A) `print("Score: " + "10")`  
+B) `print("Score:", 10)`  
+C) `print("Score: " + 10)`  
+D) `print(f"Score: {10}")`  
+**Answer: C) `print("Score: " + 10)`**
+
+---
+
