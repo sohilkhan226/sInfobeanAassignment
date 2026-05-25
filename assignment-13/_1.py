@@ -14,9 +14,46 @@
 # Prime Number
 
 
+# n=45
+# count=1
+# flag=True
+# for i in range(2,29):
+#     if n%i==0:
+#         flag=False
+# if(flag==True):
+#     print("prime number")
+# else:
+#     print("not prime number")
+
+for i in range(1,101):
+    j=1
+    for j in range(2,i+1):
+        if i%j==0:
+            break
+    if i==j:
+        print(i,end=" ")
+    
+            
+            
+       
+        
+    
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+'''
 n = int(input())
 
 if n <= 1:
@@ -34,8 +71,7 @@ else:
         print("Prime Number")
     else:
         print("Not Prime Number")
-
-
+'''
 
 
 

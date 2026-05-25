@@ -16,27 +16,57 @@
 # Input: 4, 4
 # Output: Already on the same floor
 
-current     = int(input("Enter current floor: "))
-destination = int(input("Enter destination floor: "))
 
-if current < destination:
-    i = current
-    while i <= destination:
-        if i == destination:
-            print(i)
-        else:
-            print(i, end = " → ")
-        i = i + 1
-elif current > destination:
-    i = current
-    while i >= destination:
-        if i == destination:
-            print(i)
-        else:
-            print(i, end = " → ")
-        i = i - 1
-else:
-    print("Already on the same floor")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# current     = int(input("Enter current floor: "))
+# destination = int(input("Enter destination floor: "))
+
+# if current < destination:
+#     i = current
+#     while i <= destination:
+#         if i == destination:
+#             print(i)
+#         else:
+#             print(i, end = " → ")
+#         i = i + 1
+# elif current > destination:
+#     i = current
+#     while i >= destination:
+#         if i == destination:
+#             print(i)
+#         else:
+#             print(i, end = " → ")
+#         i = i - 1
+# else:
+#     print("Already on the same floor")
 
 
 # 

@@ -14,14 +14,16 @@
 # Output:
 # Average Speed = 50 km/h
 
-distance1 = float(input("Enter distance1: "))
-time1 = float(input("Enter time1: "))
-distance2 = float(input("Enter distance2: "))
-time2 = float(input("Enter time2: "))
 
-total_distance = distance1 + distance2
-total_time = time1 + time2
 
-average_speed = total_distance / total_time
+# distance1 = float(input("Enter distance1: "))
+# time1 = float(input("Enter time1: "))
+# distance2 = float(input("Enter distance2: "))
+# time2 = float(input("Enter time2: "))
 
-print("Average Speed =", average_speed, "km/h")
+# total_distance = distance1 + distance2
+# total_time = time1 + time2
+
+# average_speed = total_distance / total_time
+
+# print("Average Speed =", average_speed, "km/h")

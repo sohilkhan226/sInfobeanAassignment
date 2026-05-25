@@ -77,7 +77,7 @@ A) 3 and 4
 B) 2 and 4  
 C) 2 and 3  
 D) 3 and 3  
-**Answer: B) 2 and 4** *(Python 3 'Banker's rounding' use karta hai, yani .5 hone par hamesha nearest EVEN number par round hota hai)*
+**Answer: B) 3 and 4** *(Python 3 'Banker's rounding' use karta hai, yani .5 hone par hamesha nearest EVEN number par round hota hai)*
 
 **12. What is the output of `0.1 + 0.1 + 0.1 == 0.3`?**  
 A) True  

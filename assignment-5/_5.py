@@ -20,3 +20,18 @@ if username == "admin":
 
 if len(password) >= 8:
     print("Strong password")
+
+
+# username= input("enter the username")
+# password= input("enter the password")      
+
+# if username.lower() == "admin":
+#     if len(password)>=8:             //hum "len()" ka use sting,list,tupple,dictonary me karte 
+#         if int(password)==56217867:  //password string thi islie hamne password ko integer kar
+#             print("login h")
+#         else:
+#             print("wrong password")
+#     else:
+#         print("weak password")
+# else:
+#     print("not valid user")

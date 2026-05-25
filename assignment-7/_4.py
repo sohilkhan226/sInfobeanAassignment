@@ -1,6 +1,4 @@
 # 4. E-Commerce Discount Engine
-
-
 # An online shopping platform provides discounts to customers based on their total purchase amount:
 
 # * Above ₹5000 → 20% discount

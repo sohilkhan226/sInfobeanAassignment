@@ -15,6 +15,48 @@
 # Output:
 # Strong Number
 
+n=145
+check=0
+for i in str(n):
+    fact=1
+    j=1
+    while j<=int(i):
+        fact=fact*j
+        j+=1
+    check+=fact
+if check==n:
+    print("strong number")
+else:
+    print("not strong number")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+'''
 n = int(input())
 
 temp = n
@@ -61,3 +103,4 @@ else:
 #     print("Strong Number")
 # else:
 #     print("Not a Strong Number")
+'''

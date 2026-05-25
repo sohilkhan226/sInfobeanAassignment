@@ -12,6 +12,7 @@
 # Gym access granted
 # Enroll in weight loss program
 
+
 age = int(input("Enter age: "))
 bmi = float(input("Enter BMI: "))
 

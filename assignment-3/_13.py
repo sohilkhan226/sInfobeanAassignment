@@ -15,7 +15,7 @@
 # Amount = 1210.0
 # Compound Interest = 210.0
 
-principal = float(input("Enter principal: "))
+rincipal = float(input("Enter principal: "))
 rate = float(input("Enter rate: "))
 time = float(input("Enter time: "))
 
@@ -24,6 +24,15 @@ ci = amount - principal
 
 print("Amount =", amount)
 print("Compound Interest =", ci)
+
+
+# principal = int(input("enter the principal"))
+# Rate      = int(input("enter the rate"))
+# Time      = int(input("enter the Time"))
+
+# amount = principal*(1+Rate/100)**Time
+
+# print(f"amount={amount:.2f}")
 
 
 

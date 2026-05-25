@@ -20,3 +20,22 @@ run_rate = round(runs / (total_balls / 6), 2)
 
 print("Total Balls =", total_balls)
 print("Run Rate =", run_rate)
+
+
+
+# runs = 275
+# overs = 48.3
+# runrate=runs/overs       //mostly hum yahi kar rahe h bus ak ya do point me dikat aayi h....
+# print(round(runrate,2))
+
+
+
+
+# overs= float(input("enter the over value"))
+# runs= int(input("enter the run"))
+# over = int(overs)
+# extra_ball = round(overs-over)*10
+
+# total_balls=over*6+extra_ball
+# run_rate = runs/(total_balls/6)
+# print(run_rate)

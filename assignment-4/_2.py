@@ -13,16 +13,55 @@
 # Total with Interest = 27500
 # Monthly EMI = 2750.0
 
-price = float(input("Enter mobile price: "))
-down_payment = float(input("Enter down payment: "))
-interest_rate = float(input("Enter interest rate: "))
-months = int(input("Enter number of months: "))
+mobile_price = int(input("enter the mobile_price"))
+down_payment = int(input("enter the downpayment"))
+remaining_amount= mobile_price-down_payment
+months       = int(input("enter the months"))    
 
-remaining_amount = price - down_payment
-interest = remaining_amount * interest_rate / 100
-total_with_interest = remaining_amount + interest
-emi = total_with_interest / months
+interest_rate  = remaining_amount*10/100
 
-print("Remaining Amount =", remaining_amount)
-print("Total with Interest =", total_with_interest)
-print("Monthly EMI =", emi)
+total_with_interest = remaining_amount+interest_rate
+emi = total_with_interest/months
+
+
+print(total_with_interest)
+print(emi)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# price = float(input("Enter mobile price: "))
+# down_payment = float(input("Enter down payment: "))
+# interest_rate = float(input("Enter interest rate: "))
+# months = int(input("Enter number of months: "))
+
+# remaining_amount = price - down_payment
+# interest = remaining_amount * interest_rate / 100
+# total_with_interest = remaining_amount + interest
+# emi = total_with_interest / months
+
+# print("Remaining Amount =", remaining_amount)
+# print("Total with Interest =", total_with_interest)
+# print("Monthly EMI =", emi)

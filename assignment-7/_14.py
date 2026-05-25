@@ -1,4 +1,3 @@
-
 # 14. Online Course Fee System
 
 # An online platform offers courses with fixed fees:

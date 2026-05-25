@@ -1,6 +1,8 @@
 # 6. Automorphic Number Checker
 
-# A digital security company designs smart lockers that open only for special self-matching numeric codes. When a user enters a number, the system squares the number and checks whether the result ends with the same digits as the original code. If yes, the locker grants access.
+# A digital security company designs smart lockers that open only for special self-matching numeric codes.
+# When a user enters a number, the system squares the number and checks whether the result
+# ends with the same digits as the original code. If yes, the locker grants access.
 
 # An automorphic number is a number whose square ends with the same number.
 
@@ -15,6 +17,41 @@
 # Output:
 # Automorphic Number
 
+
+n=67
+automorphic=n**2
+print(n)
+print(automorphic)
+
+while n>0:
+    last1=n%10
+    break
+while automorphic>0:
+    last2=automorphic%10
+    break
+
+if last1==last2:
+    print("automorphic")
+else:
+    print("not automorphixc h ")    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+'''
 n = int(input())
 
 square = n * n
@@ -55,3 +92,4 @@ else:
 #     print("Automorphic Number")
 # else:
 #     print("Not an Automorphic Number")
+'''

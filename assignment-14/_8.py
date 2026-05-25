@@ -23,8 +23,6 @@ while amount >= 100:
 
 print("Notes =", notes)
 
-
-
 #
 
 # amount = int(input())

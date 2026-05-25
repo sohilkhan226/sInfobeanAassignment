@@ -14,16 +14,29 @@
 # ₹50 x 1
 # ₹10 x 3
 
-amount = int(input("Enter amount: "))
 
-note100 = amount // 100
-amount = amount % 100
+amount = 380
 
-note50 = amount // 50
-amount = amount % 50
+note100= amount//100
+amount = amount%100
 
-note10 = amount // 10
+note50 =amount//50
+amount=amount%50
 
-print("₹100 x", note100)
-print("₹50 x", note50)
-print("₹10 x", note10)
+note10 = amount//10
+
+print(f"₹100 x {note100}\n₹50 x {note50}\n₹10 x {note10}")
+
+
+
+
+
+
+
+
+
+
+
+
+
+

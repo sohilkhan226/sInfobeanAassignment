@@ -1,5 +1,3 @@
-
-
 # 2. Student Performance Analyzer
 #    A school wants to evaluate students based on marks.
 
@@ -12,6 +10,7 @@
 # Output:
 # Pass
 # Distinction
+
 
 marks = int(input("Enter marks: "))
 

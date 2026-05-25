@@ -1,7 +1,6 @@
 # 1. Utility Toolkit System
 
 # You are developing a Utility Toolkit Application for a small office. Employees use this tool to quickly perform common number operations like checking prime numbers, reversing numbers, etc.
-
 # The system should be menu-driven and must continue running until the user selects Exit. All operations should be handled using match-case.
 
 # Menu Options:
@@ -129,3 +128,9 @@ while True:
 
         case _:
             print("Invalid choice. Please try again.")
+
+
+while True:
+    match sk:
+    case 1:print("hello")
+    

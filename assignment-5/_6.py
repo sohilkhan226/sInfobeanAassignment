@@ -1,4 +1,3 @@
-
 # 6. Weather Monitoring System
 #    A system checks weather conditions:
 
@@ -12,6 +11,16 @@
 # Output:
 # Hot day
 # High humidity alert
+
+
+
+
+
+
+
+
+
+
 
 temperature = int(input("Enter temperature: "))
 humidity = int(input("Enter humidity: "))

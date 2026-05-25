@@ -17,6 +17,14 @@
 # Prime Number
 # Next Prime = 31
 
+
+
+            
+        
+
+
+
+'''
 n = int(input())
 
 # Check if n is prime
@@ -115,3 +123,4 @@ else:
 #         cand -= 1
 #     if not found:
 #         print("No Previous Prime")
+'''

@@ -13,6 +13,30 @@
 # Output:
 # # Highest Stock = 500
 
+
+'''
+unit1=120
+unit2=450
+unit3=300
+unit4=700
+unit5=500
+unit6=390
+
+highest_stock=unit1                  //important
+
+if highest_stock<unit2:
+	highest_stock=unit2
+if highest_stock<unit3:
+	highest_stock=unit3
+if highest_stock<unit4:
+	highest_stock=unit4
+if highest_stock<unit5:
+	highest_stock=unit5
+if highest_stock<unit6:
+	highest_stock=unit6
+print("highest_stock = ",highest_stock)
+'''
+
 unit1 = int(input("Enter Unit1: "))
 unit2 = int(input("Enter Unit2: "))
 unit3 = int(input("Enter Unit3: "))

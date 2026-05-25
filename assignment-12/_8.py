@@ -1,6 +1,7 @@
 # 8.
 # Mirror Difference Transaction Verification System
-# A multinational banking company processes thousands of daily transaction IDs. To detect suspicious patterns and validate system-generated IDs,
+# A multinational banking company processes thousands of daily transaction IDs.
+# To detect suspicious patterns and validate system-generated IDs,
 #  the security software performs a Mirror Difference Verification Test.
 # For every entered transaction ID:
 
@@ -10,15 +11,11 @@
 
 
 # Count the total number of digits in the difference
-
-
 # Apply the following conditions using if-elif-else:
 
 # If the difference is 0, print Perfect Match
 
-
-# Else if the difference is divisible by 9, print Verified
-
+# Else if the difference is divisible by 9, p rint Verified
 
 # Else print Rejected
 
@@ -37,7 +34,33 @@
 # Output:
 # Reverse = 4321Difference = 3087Digits = 4Verified
 
+n=int(input("enter the numeber"))
+rev=""
+for i in str(n):
+    rev=i+rev
+reverse = int(rev)
+difference = reverse-n
+length=len(str(difference))
 
+if difference==0:
+    status="perfect match"
+elif difference%9==0:
+    status="varified"
+else:
+    status="Rejected"
+
+print(f"revrse={reverse} difference={difference} digits={length}variefid")
+
+
+
+
+
+
+
+
+
+
+'''
 n = int(input())
 
 # Reverse the number
@@ -105,3 +128,4 @@ else:
 #     print("Verified")
 # else:
 #     print("Rejected")
+'''

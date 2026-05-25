@@ -12,3 +12,4 @@ discount = (20 / 100 if amount > 5000 else 10 / 100) if customer == "premium" el
 final_amount = amount - amount * discount
 
 print("Final Payable Amount =", final_amount)
+

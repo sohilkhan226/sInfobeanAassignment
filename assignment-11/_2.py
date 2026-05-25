@@ -8,27 +8,27 @@
 # Output:
 # Smallest Digit = 2
 
-num = int(input("Enter number: "))
-smallest = 9
-
-while num > 0:
-    digit = num % 10
-    if digit < smallest:
-        smallest = digit
-    num = num // 10
-
-print("Smallest Digit =", smallest)
-
-#
-
 # num = int(input("Enter number: "))
-# temp = num
 # smallest = 9
 
-# for _ in str(num):
-#     digit = temp % 10
+# while num > 0:
+#     digit = num % 10
 #     if digit < smallest:
 #         smallest = digit
-#     temp = temp // 10
+#     num = num // 10
 
 # print("Smallest Digit =", smallest)
+
+# #
+
+# # num = int(input("Enter number: "))
+# # temp = num
+# # smallest = 9
+
+# # for _ in str(num):
+# #     digit = temp % 10
+# #     if digit < smallest:
+# #         smallest = digit
+# #     temp = temp // 10
+
+# # print("Smallest Digit =", smallest)

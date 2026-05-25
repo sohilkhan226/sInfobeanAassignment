@@ -1,0 +1,14 @@
+# 1
+# 00
+# 111
+# 0000
+# 11111
+
+n = 5
+for i in range(1, n + 1):
+    for j in range(i):
+        if i % 2 != 0:
+            print("1", end="")
+        else:
+            print("0", end="")
+    print()

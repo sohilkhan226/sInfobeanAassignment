@@ -1,0 +1,151 @@
+1. Find the length of a string.
+2. Copy one string to another.
+3. Concatenate two strings.
+4. Compare two strings (case-sensitive).
+5. Compare two strings ignoring case.
+6. Convert a string to uppercase.
+7. Convert a string to lowercase.
+8. Toggle the case of each character.
+9. Check whether a string is empty.
+10. Trim leading, trailing, or extra spaces.
+11. Get the character at a given index.
+12. Get the Unicode code point of a character at index.
+13. Get the Unicode code point before index.
+14. Find the first occurrence of a character.
+15. Find the last occurrence of a character.
+16. Count total occurrences of a character.
+17. Remove occurrences of a character.
+18. Replace occurrences of a character.
+19. Find the highest frequency character.
+20. Find the lowest frequency character.
+21. Find the first non-repeating character.
+22. Find the last repeating character.
+23. Print all characters that occur exactly twice.
+24. Check if all characters in a string are unique.
+25. Count total number of words in a string.
+26. Find the first occurrence of a word.
+27. Find the last occurrence of a word.
+28. Count occurrences of a word.
+29. Remove the first, last, or all occurrences of a word.
+30. Replace a word with another word.
+31. Remove duplicate words from a string.
+32. Count the frequency of each word.
+33. Find the longest word.
+34. Find the shortest word.
+35. Find the first word that is a palindrome.
+36. Reverse the order of words.
+37. Reverse each word in a string.
+38. Reverse words without using split().
+39. Search all occurrences of a character.
+40. Search all occurrences of a word.
+41. Check if a string contains a substring (without using built-in method).
+42. Check if two strings are equal without using equals().
+43. Check if two strings are rotations of each other.
+44. Check if two strings are anagrams.
+45. Check whether a string starts with or ends with another string.
+46. Check if a substring appears at both the start and end.
+47. Check if one string is a substring of another using only concatenation.
+48. Remove all vowels.
+49. Replace all consonants with ''.
+50. Remove all digits.
+51. Extract only digits.
+52. Remove all special characters.
+53. Remove all punctuation characters.
+54. Replace all duplicate characters with '$'.
+55. Reverse only vowels.
+56. Reverse only consonants.
+57. Merge two strings alternatively (char by char).
+58. Rotate characters by 2 positions to the left.
+59. Rotate characters by 3 positions to the right.
+60. Append two strings but remove duplicate adjacent characters.
+61. Count total alphabets, digits, and special characters.
+62. Count vowels and consonants.
+63. Count frequency of each character.
+64. Count frequency of each vowel.
+65. Count palindromic substrings.
+66. Count number of sentences in a paragraph.
+67. Count how many times a substring appears.
+68. Count the sum of digits present in a string.
+69. Count how many times 'life' appears in a string.
+70. Compare the number of times 'the' and 'is' appear.
+71. Print all substrings.
+72. Print all substrings of length n.
+73. Find the longest palindromic substring.
+74. Find the longest substring without repeating characters.
+75. Find the longest common prefix among strings.
+76. Find the longest common suffix among strings.
+77. Find the longest substring that appears at both ends.
+78. Find the longest mirror-image substring at both ends.
+79. Divide a string into n equal parts.
+80. Print list items containing all characters of a given word.
+81. Generate a hash code or UUID.
+82. Create a string from a character array.
+83. Create a string from a byte array.
+84. Print ASCII value of each character.
+85. Convert string into a char array without built-in functions.
+86. Print all permutations of a string without repetition.
+87. Print all permutations of a string with repetition.
+88. Rearrange a string so that identical characters are at least d distance apart.
+89. Remove 'b' and 'ac' from a string.
+90. Remove adjacent duplicates recursively.
+91. Check if two strings are interleaving of another string.
+92. Check if two strings are pq-balanced.
+93. Match strings with wildcard characters (*, ?).
+94. Find the smallest window containing all characters of another string.
+95. Find the second most frequent character.
+96. Find the second most frequent word.
+97. Check if two given strings appear at the end of each other (ignoring case).
+98. Check if the first 'z' is immediately followed by another 'z'.
+99. Check if a 'z' is happy (surrounded by same chars).
+100. Return true if string contains 'abc' not followed by '.'.
+101. Check if a string is a valid palindrome ignoring spaces and punctuation.
+102. Reverse a string using recursion.
+103. Check if a string contains balanced parentheses.
+104. Check if a string contains balanced brackets of all types ((), {}, []).
+105. Find the longest valid parentheses substring.
+106. Generate all subsequences of a string.
+107. Check if a string is a pangram (contains every letter).
+108. Check if a string is an isogram (no repeating letters).
+109. Find the lexicographically smallest substring of length k.
+110. Find the lexicographically largest substring of length k.
+111. Check if a string can be rearranged into a palindrome.
+112. Find the minimum number of deletions to make a string palindrome.
+113. Find the minimum number of insertions to make a string palindrome.
+114. Check if one string is a subsequence of another.
+115. Find the edit distance (Levenshtein distance) between two strings.
+116. Check if a string is a valid shuffle of two other strings.
+117. Check if a string contains duplicate substrings.
+118. Find the longest repeated substring.
+119. Find the smallest substring containing all vowels.
+120. Find the longest substring containing only vowels.
+121. Check if a string contains only binary digits (0/1).
+122. Convert a binary string to decimal.
+123. Convert a decimal number to binary string.
+124. Find the longest common subsequence of two strings.
+125. Find the shortest common supersequence of two strings.
+126. Print all anagrams of a string.
+127. Group words that are anagrams from an array of strings.
+128. Check if a string follows a given pattern.
+129. Find the smallest window containing all distinct characters.
+130. Find the maximum occurring word.
+131. Check if a string is a valid email address.
+132. Check if a string is a valid IP address.
+133. Convert a Roman numeral string to integer.
+134. Convert an integer to Roman numeral string.
+135. Check if two strings differ by exactly one character.
+136. Check if two strings are one edit distance apart.
+137. Find the length of the longest substring with at most k distinct characters.
+138. Find all palindromic partitions of a string.
+139. Check if a string can be segmented into valid dictionary words.
+140. Implement KMP algorithm for substring search.
+141. Implement Rabin-Karp algorithm for substring search.
+142. Implement Z algorithm for substring search.
+143. Check if a string is valid JSON format (basic check).
+144. Check if a string is valid HTML/XML tag sequence.
+145. Remove HTML tags from a string.
+146. Compress a string using run-length encoding.
+147. Decompress a run-length encoded string.
+148. Find the first recurring substring of length k.
+149. Check if two strings are scrambled versions of each other.
+150. Find the lexicographically next permutation of a string.
+151. Find the lexicographically previous permutation of a string.

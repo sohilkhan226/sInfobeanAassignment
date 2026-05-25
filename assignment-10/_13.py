@@ -17,36 +17,59 @@
 # Output: Both numbers are same
 
 # ---
+a=int(input("enter the number"))
+b=int(input("enter the number"))
 
-first  = int(input("Enter first number: "))
-second = int(input("Enter second number: "))
-
-if first < second:
-    i = first
-    while i <= second:
-        print(i, end = " ")
-        i = i + 1
-    print()
-elif first > second:
-    i = first
-    while i >= second:
-        print(i, end = " ")
-        i = i - 1
-    print()
+if a<b:
+    for i in range(a,b+1):
+        a+=1
+        print(a)
+elif b>a:
+     for i in range(b-1,a-1,-1):
+        b-=1
+        print(b)
 else:
-    print("Both numbers are same")
+    print("both are equal")
 
-#
-# first = int(input("Enter first number: "))
+
+
+
+
+
+
+
+
+
+
+# first  = int(input("Enter first number: "))
 # second = int(input("Enter second number: "))
 
 # if first < second:
-#     for i in range(first, second + 1):
-#         print(i, end=" ")
+#     i = first
+#     while i <= second:
+#         print(i, end = " ")
+#         i = i + 1
 #     print()
 # elif first > second:
-#     for i in range(first, second - 1, -1):
-#         print(i, end=" ")
+#     i = first
+#     while i >= second:
+#         print(i, end = " ")
+#         i = i - 1
 #     print()
 # else:
 #     print("Both numbers are same")
+
+# #
+# # first = int(input("Enter first number: "))
+# # second = int(input("Enter second number: "))
+
+# # if first < second:
+# #     for i in range(first, second + 1):
+# #         print(i, end=" ")
+# #     print()
+# # elif first > second:
+# #     for i in range(first, second - 1, -1):
+# #         print(i, end=" ")
+# #     print()
+# # else:
+# #     print("Both numbers are same")

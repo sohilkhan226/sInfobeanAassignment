@@ -12,6 +12,9 @@
 # Output:
 # Percentage = 80%
 
+total = 500
+obtained = 400
+print("percentage",400/500*100,"%")
 
 
 

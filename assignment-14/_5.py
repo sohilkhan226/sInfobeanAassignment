@@ -22,6 +22,33 @@ for i in range(len(num_str) - 1):
 else:  # Executes only if no break occurs
     print("Stable Number")
 
+'''
+num = int(input("Enter number: "))
+
+# मान लेते हैं कि नंबर Stable है
+is_stable = True
+
+# नंबर के आखरी दो अंकों को आपस में तुलना करने के लिए लूप
+while num > 9:
+    last_digit = num % 10          # सबसे आखरी अंक
+    prev_digit = (num // 10) % 10  # उसके ठीक पहले वाला (Adjacent) अंक
+    
+    # पीछे से चेक कर रहे हैं, इसलिए पहले वाला अंक हमेशा छोटे वाले से छोटा होना चाहिए
+    # अगर पहले वाला अंक बड़ा या बराबर निकला, तो नियम टूट गया
+    if prev_digit >= last_digit:
+        is_stable = False
+        break
+        
+    num = num // 10  # आखरी अंक को हटाकर नंबर छोटा करें
+
+# फाइनल रिजल्ट प्रिंट करें
+if is_stable:
+    print("Stable Number")
+else:
+    print("Unstable Number")
+
+'''
+
 
 
 

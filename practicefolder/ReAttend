@@ -1,0 +1,83 @@
+asignment-12
+
+# 9.
+# Step Difference Number Analyzer
+
+# A mathematics research center studies hidden patterns inside numbers.
+# For every entered number, the system compares adjacent digits step by step.
+
+# Write a program to:
+
+# Find the absolute difference between every pair of adjacent digits
+# Display all step differences
+# Find the sum of all step differences
+# Find the largest step difference
+# If the sum of step differences is divisible by the number of digits, print Balanced Number
+# Otherwise print Unbalanced Number
+
+# Use loops wherever required.
+
+# Input:
+# 57294
+# Output:
+# Step Differences: 2 5 7 5
+# Sum = 19
+# Largest = 7
+# Unbalanced Number
+
+
+
+
+assignment-14
+
+# 7.
+#  Alternate Digit Prime Checker
+
+# A math lab adds alternate digits from right side.
+
+# Write a program to:
+
+# - Find sum of alternate digits
+# - Check whether sum is Prime or Not
+
+# Input:
+# 12345
+
+# Output:
+# Alternate Sum = 9
+# Not Prime
+
+
+
+
+
+assignment-16       16 assignment pura samjna h last me isme list ke concept h.....
+assignment-17 ,18 pura with list conecpt
+assignmet-19     =>   ternary oprater.....     isko bhi samajna...
+# 1.Digit Product Analyzer System
+
+# A data analytics company studies patterns in numeric transaction IDs to detect hidden behaviors.
+
+# For every entered number, the system analyzes relationships between its digits.
+
+# Write a program to:
+
+# Find the product of every pair of adjacent digits
+# Display all the products
+# Find the sum of all these products
+# Find the smallest product value
+# If the sum of products is divisible by the total number of digits, print Stable Number
+# Otherwise print Unstable Number
+
+# Use loops wherever required.
+
+# Input:
+# 57294
+
+# Output:
+# Products: 35 14 18 36
+# Sum = 103
+# Smallest = 14
+# Unstable Number
+
+

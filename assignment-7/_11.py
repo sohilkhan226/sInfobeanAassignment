@@ -23,19 +23,18 @@ distance = int(input("Enter distance: "))
 travel_class = input("Enter class: ").strip()
 
 if distance <= 100:
-    if travel_class == "Sleeper":
+    if travel_class == "sleeper":
         fare = 100
-    elif travel_class == "AC":
+    else:
         fare = 200
 elif distance <= 500:
-    if travel_class == "Sleeper":
+    if travel_class=="sleeper":
         fare = 300
-    elif travel_class == "AC":
+    else:
         fare = 600
 else:
-    if travel_class == "Sleeper":
+    if travel_class == "sleeper":
         fare = 500
-    elif travel_class == "AC":
+    else:
         fare = 1000
-
 print("Total Fare: ₹" + str(fare))

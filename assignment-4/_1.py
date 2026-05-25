@@ -19,6 +19,7 @@
 # Final Bill = 2875.0
 # Each Person Pays = 718.75
 
+
 bill = float(input("Enter total bill amount: "))
 gst_rate = float(input("Enter GST rate: "))
 service_rate = float(input("Enter service charge rate: "))

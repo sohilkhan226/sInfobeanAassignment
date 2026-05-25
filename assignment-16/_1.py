@@ -23,7 +23,7 @@
 # Sum = 103
 # Smallest = 14
 # Unstable Number
-
+'''
 n_str = input()
 
 # Extract digits using loop
@@ -60,3 +60,4 @@ if total % len(digits) == 0:
     print("Stable Number")
 else:
     print("Unstable Number")
+'''

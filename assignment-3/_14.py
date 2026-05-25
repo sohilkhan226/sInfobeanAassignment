@@ -13,8 +13,6 @@
 # Profit = 200
 # Profit % = 20.0
 
-
-
 cp = float(input("Enter cost price: "))
 sp = float(input("Enter selling price: "))
 

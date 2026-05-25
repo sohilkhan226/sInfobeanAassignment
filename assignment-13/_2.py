@@ -13,6 +13,48 @@
 # Output:
 # Next Prime = 17
 
+
+n=17
+candidate=n+1
+flag=True
+while True:
+    if flag==True:
+        for i in range(2,candidate):
+            if candidate%i==0:
+                flag=True
+                break
+        else:
+            flag=False
+    if flag==True:
+        candidate+=1
+    else:
+        print("ye mil gya prime number",candidate)
+        break
+
+    
+                
+
+    
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+'''
 n = int(input())
 
 candidate = n + 1
@@ -53,3 +95,4 @@ while True:
 #         print("Next Prime =", candidate)
 #         found = True
 #     candidate += 1
+'''

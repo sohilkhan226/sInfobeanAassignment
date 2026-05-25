@@ -13,17 +13,44 @@
 # Enter annual income: 800000
 
 # Output:
-# Tax Payable: ₹110000
+# Tax Payable: ₹ 172500.0
 
-income = int(input("Enter annual income: "))
 
-if income <= 250000:
-    tax = 0
-elif income <= 500000:
-    tax = (income - 250000) * 5 / 100
-elif income <= 1000000:
-    tax = (250000 * 5 / 100) + (income - 500000) * 20 / 100
+Annual_income=800000
+
+if Annual_income<=250000:
+    tax=0
+elif Annual_income>250000 and Annual_income<=500000:
+    tax = (250000*0)+(Annual_income-250000)*5/100
+elif Annual_income>500000 and Annual_income<=1000000:
+    tax = (250000*0)+(250000*5/100)+Annual_income*20/100
 else:
-    tax = (250000 * 5 / 100) + (500000 * 20 / 100) + (income - 1000000) * 30 / 100
+    tax = (250000*0)+(250000*5/100)+(500000*20/100)+(500000*30/100)
+print(f"tax payable {tax}")
 
-print("Tax Payable: ₹" + str(int(tax)))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# income = int(input("Enter annual income: "))
+
+# if income <= 250000:
+#     tax = 0
+# elif income <= 500000:
+#     tax = (income - 250000) * 5 / 100
+# elif income <= 1000000:
+#     tax = (250000 * 5 / 100) + (income - 500000) * 20 / 100
+# else:
+#     tax = (250000 * 5 / 100) + (500000 * 20 / 100) + (income - 1000000) * 30 / 100
+
+# print("Tax Payable: ₹" + str(int(tax)))

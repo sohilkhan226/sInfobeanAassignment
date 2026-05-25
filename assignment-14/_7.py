@@ -15,6 +15,43 @@
 # Alternate Sum = 9
 # Not Prime
 
+
+
+sum=0
+n=12345
+k=0
+for i in str(n):
+    sum+=int(i)
+    i+=2
+print(sum)
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 n = int(input())
 temp = n
 alt_sum = 0

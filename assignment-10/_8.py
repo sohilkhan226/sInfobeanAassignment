@@ -7,6 +7,13 @@
 
 # ---
 
+
+
+
+
+
+
+
 number = int(input("Enter a number: "))
 
 original   = number

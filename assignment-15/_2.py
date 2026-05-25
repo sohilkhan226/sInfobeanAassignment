@@ -17,6 +17,18 @@
 # Output:
 # 0 1 1 2 3 5 8
 
+n=10
+a=0
+b=1
+for i in range(n):
+    print(a)
+    temp=a+b
+    a=b
+    b=temp
+    
+
+
+'''
 n = int(input())
 
 a, b = 0, 1
@@ -37,3 +49,4 @@ count = 0
 #     count += 1
 
 # print()
+'''

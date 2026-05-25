@@ -38,4 +38,4 @@ while top <= bottom and left <= right:
 for i in range(n):
     for j in range(n):
         print(str(matrix[i][j]).rjust(4), end="")
-    print()
+    print()csx

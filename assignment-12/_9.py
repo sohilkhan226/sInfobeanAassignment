@@ -23,6 +23,45 @@
 # Largest = 7
 # Unbalanced Number
 
+n=57294
+i=0
+a=10000
+s=0
+k=0
+length= str(n)
+while int(length)>0:
+    s=n//a
+    while n>0:
+        a=a//10
+        k=n//a
+        break
+
+print(s)
+print(k)
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+'''
 n = int(input())
 
 # Extract digits using loop
@@ -110,3 +149,4 @@ else:
 #     print("Balanced Number")
 # else:
 #     print("Unbalanced Number")
+'''
